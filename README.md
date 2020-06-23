@@ -16,8 +16,8 @@
 
 
 <center><h2>Funcionalidades da aplicação</h2></center>
-<h3>
-Essa será uma aplicação para armazenar transações financeiras de entrada e saída, que deve permitir o cadastro e a listagem dessas transações.<h3>
+<p>
+Essa será uma aplicação para armazenar transações financeiras de entrada e saída, que deve permitir o cadastro e a listagem dessas transações.<p>
 <ul>
     <li><strong>POST /transactions:</strong> A rota deve receber title, value e type dentro do corpo da requisição, sendo type o tipo da transação, que deve ser income para entradas (depósitos) e outcome para saídas (retiradas). Ao cadastrar uma nova transação, ela deve ser armazenada dentro de um objeto com o seguinte formato:
     <div ><pre>{
@@ -65,7 +65,7 @@ Essa será uma aplicação para armazenar transações financeiras de entrada e 
 </ul>
 
 <center><h2>Específicação dos testes</h2></center>
-<h3>Para esse desafio temos os seguintes testes:<h3>
+<p>Para esse desafio temos os seguintes testes:<p>
 <ul>
     <li><strong>should be able to create a new transaction:</strong> Para que esse teste passe, sua aplicação deve permitir que uma transação seja criada, e retorne um json com a transação criada.</li>
     <li><strong>should be able to list the transactions:</strong> Para que esse teste passe, sua aplicação deve permitir que seja retornado um objeto contendo todas as transações junto ao balanço de income, outcome e total das transações que foram criadas até o momento.</li>
